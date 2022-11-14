@@ -1,0 +1,33 @@
+using System;
+using System.Linq;
+using System.Collections.Generic;
+
+namespace SUM
+{
+    public class COMPRO_4 
+    {         
+      public static void Main(string[] arg)
+      {
+      	    int Num1;
+            int Num2;
+            int Num3;
+            int Num4;
+            int Sum;
+           
+            Console.Write("Enter the First Number:");
+            Num1 = int.Parse(Console.ReadLine());
+            Console.Write("Enter the Second Number:");
+            Num2 = int.Parse(Console.ReadLine());
+            Console.Write("Enter the Third Number:");
+            Num3 = int.Parse(Console.ReadLine());
+            Console.Write("Enter the Fourth Number:");
+            Num4 = int.Parse(Console.ReadLine());
+
+            Sum = Num1 + Num2 + Num3 + Num4;
+
+            Console.Write("Sum of the two numbers " + Sum);
+            Console.ReadKey();
+
+      }
+    }
+}
